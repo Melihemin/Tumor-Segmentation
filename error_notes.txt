@@ -1,0 +1,12 @@
+<aside>
+💡 TypeError: Input 'y' of 'Mul' Op has type float32 that does not match type uint16 of argument 'x'.
+
+</aside>
+
+# Çözüm
+
+Fonksiyon çıkışlarında değer döndürürken uint16 formatı yerine np.float32 kullandık.
+
+```python
+return np.array(img_liste,np.float32)
+```
