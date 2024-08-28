@@ -493,10 +493,4 @@ model.fit(x_train,seg,validation_split=0.30,batch_size=24
           ,epochs=30,shuffle=True,verbose=1)
 ```
 
-**ÇIKTI:**
 
-```python
-
-```
-
-![O%CC%88nemli%20Kavramlar%20ve%20Kodlar%20f6490a8634dd4f89ae807fc55d0e99ff/Untitled%2016.png](O%CC%88nemli%20Kavramlar%20ve%20Kodlar%20f6490a8634dd4f89ae807fc55d0e99ff/Untitled%2016.png)
